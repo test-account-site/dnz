@@ -1,0 +1,120 @@
+/*menu*/
+    @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+    .menu-main {
+      list-style: none;
+      padding: 15px 0 0;
+      text-align: center;
+      background: white;
+    }
+    .menu-main li {display: inline-block;}
+    .menu-main li:after {
+      content: "|";
+      color: #000;
+      display: inline-block;
+      vertical-align:top;
+    }
+    .menu-main li:last-child:after {content: none;}
+    .menu-main a {
+      text-decoration: none;
+      font-family: 'Ubuntu Condensed', sans-serif;
+      letter-spacing: 2px;
+      position: relative;
+      padding-bottom: 10px;
+      margin: 0 34px 0 30px;
+      font-size: 17px;
+      text-transform: uppercase;
+      display: inline-block;
+      transition: color .2s;
+    }
+    .menu-main a, .menu-main a:visited {color: #000;}
+    .menu-main a.current, .menu-main a:hover{color: #FFB841;}
+    .menu-main a:before,
+    .menu-main a:after {
+      content: "";
+      position: absolute;
+      height: 4px;
+      top: auto;
+      right: 50%;
+      bottom: -5px;
+      left: 50%;
+      background: #ffd700;
+      transition: .8s;
+    }
+    .menu-main a:hover:before, .menu-main .current:before {left: 0;}
+    .menu-main a:hover:after, .menu-main .current:after {right: 0;}
+    @media (max-width: 550px) {
+    .menu-main {padding-top: 0;}
+    .menu-main li {display: block;}
+    .menu-main li:after {content: none;}
+    .menu-main a {
+      padding: 25px 0 20px;
+      margin: 0 30px;
+    }
+    }
+
+.content-container{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(122,122,122,0.5);
+}
+
+.content-container .slides #wrapper{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.social{
+  margin: 0 20%;
+}
+
+body{
+  background: url(../images/ee.jpg);
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.content{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.content .contacts{
+  margin-top: 30px;
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.map{
+  height: 100%;
+}
+
+.logo img{
+  width: 30%;
+  margin: 0 8%;
+}
+
+.phone img{
+  width: 3%;
+}
+
+.email img{
+  width: 4%;
+  margin-right: 5px;
+}
+
+.header{
+  font-size: 20px;
+}
+
+.first{
+  font-size: 25px;  
+  text-align: center;
+  font-weight: 700;
+}
+
+.content p{
+  text-align: center;
+}
