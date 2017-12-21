@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=1100">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Дошкільний навчальний заклад (ясла-садок) №38 "Золотий ключик"</title>
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/swipebox.css">
   </head>
 
   <body>
-    
+
     <div class="content-container">
-    
+
       <header class="header text-center">
         <span class="phone"><img src="images/phone.png"><a href="tel:(0472)379340" title="Зателефонувати">(0472) 37-93-40</a></span>
         <span class="logo"><img src='images/logo.jpg'></span>
         <span class="email"><a href="mailto:example@mail.ua" title="Написати листа"><img src="images/email.jpg" alt="">example@mail.ua</a></span>
       </header>
-      
-      <hr>
+
+      <hr style="margin: 10px 0; border: 1px solid gold">
       <div class="menu">
         <div id="menu">
           <ul class="menu-main">
@@ -34,9 +35,80 @@
           </ul>
         </div>
       </div>
-    
-      <div class="content"></div>
-      
+      <hr>
+
+      <div class="content">
+        <section id="exemple" class="container">
+      		<div class="wrap small-width">
+      			<div id="try"></div>
+      			<ul id="box-container">
+      				<li class="box">
+      					<a href="images/gallery/1.jpg" class="swipebox" title="Андріївські вечорниці">
+      						<img src="images/gallery/1.jpg" alt="image">
+      					</a>
+                <div class="gallery-text">Андріївські вечорниці</div>
+      				</li>
+              <li class="box">
+      					<a href="images/gallery/2.jpg" class="swipebox" title="Андріївські вечорниці">
+      						<img src="images/gallery/2.jpg" alt="image">
+      					</a>
+                <div class="gallery-text">Андріївські вечорниці</div>
+      				</li>
+              <li class="box">
+      					<a href="images/gallery/3.jpg" class="swipebox" title="Велоперегони">
+      						<img src="images/gallery/3.jpg" alt="image">
+      					</a>
+                <div class="gallery-text">Велоперегони</div>
+      				</li>
+              <li class="box">
+      					<a href="images/gallery/4.jpg" class="swipebox" title="Велоперегони">
+      						<img src="images/gallery/4.jpg" alt="image">
+      					</a>
+                <div class="gallery-text">Велоперегони</div>
+      				</li>
+              <li class="box">
+      					<a href="images/gallery/5.jpg" class="swipebox" title="В садочок іде Миколай бородатий">
+      						<img src="images/gallery/5.jpg" alt="image">
+      					</a>
+                <div class="gallery-text">В садочок іде Миколай бородатий</div>
+      				</li>
+              <li class="box">
+      					<a href="images/gallery/6.jpg" class="swipebox" title="В садочок іде Миколай бородатий">
+      						<img src="images/gallery/6.jpg" alt="image">
+      					</a>
+                <div class="gallery-text">В садочок іде Миколай бородатий</div>
+      				</li>
+              <li class="box">
+      					<a href="images/gallery/7.jpg" class="swipebox" title="Інтегроване заняття з народознавства в старшій групі">
+      						<img src="images/gallery/7.jpg" alt="image">
+      					</a>
+                <div class="gallery-text">Інтегроване заняття з народознавства в старшій групі</div>
+      				</li>
+              <li class="box">
+      					<a href="images/gallery/8.jpg" class="swipebox" title="Інтегроване заняття з народознавства в старшій групі">
+      						<img src="images/gallery/8.jpg" alt="image">
+      					</a>
+                <div class="gallery-text">Інтегроване заняття з народознавства в старшій групі</div>
+      				</li>
+              <li class="box">
+      					<a href="images/gallery/9.jpg" class="swipebox" title="Свято  День Знань">
+      						<img src="images/gallery/9.jpg" alt="image">
+      					</a>
+                <div class="gallery-text">Свято  День Знань</div>
+      				</li>
+      			</ul>
+      		</div>
+      	</section>
+
+        <script src="js/ios-orientationchange-fix.js"></script>
+        <script src="js/jquery.swipebox.min.js"></script>
+        <script type="text/javascript">
+        $( document ).ready(function() {
+          $( '.swipebox' ).swipebox();
+          });
+        </script>
+      </div>
+
       <hr>
       <footer class="footer">
         <span class="social">
@@ -49,8 +121,8 @@
         </span>
         <span class="copyring">© 2018 Дошкільний навчальний заклад №38</span>
       </footer>
-    
+
     </div>
-    
+
   </body>
 </html>
