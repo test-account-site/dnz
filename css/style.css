@@ -52,11 +52,6 @@
     }
     }
 
-.menu{
-  position: relative;
-  z-index: 4;
-}
-
 .content-container{
   width: 80%;
   margin: 0 auto;
@@ -79,7 +74,7 @@
 }
 
 body{
-  background: url(../images/ee.jpg);
+  background: url(../images/bg.jpg);
   font-family: 'Ubuntu Condensed', sans-serif;
 }
 
@@ -121,9 +116,12 @@ body{
 
 .first{
   font-size: 25px;
+  text-align: center;
   font-weight: 700;
 }
 
-.content p{
-  text-align: center;
+.content ol{
+  width: 80%;
+  text-align: justify;
+  margin: 0 auto;
 }
