@@ -52,6 +52,11 @@
     }
     }
 
+.menu{
+  position: relative;
+  z-index: 4;
+}
+
 .content-container{
   width: 80%;
   margin: 0 auto;
