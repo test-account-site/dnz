@@ -133,3 +133,7 @@ body{
   text-align: justify;
   margin: 0 auto;
 }
+
+.margin{
+  margin-left: 20px;
+}
