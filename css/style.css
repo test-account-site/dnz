@@ -60,6 +60,18 @@
   margin-bottom: 15px;
 }
 
+@media only screen and (min-width: 960px) {
+  .content-container{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .content-container{
+    width: 96%;
+  }
+}
+
 .content-container .slides #wrapper{
   width: 90%;
   margin: 0 auto;
@@ -71,6 +83,7 @@
 
 .footer{
   text-align: center;
+  font-size: 0.9vw;
 }
 
 body{
@@ -105,6 +118,14 @@ body{
   width: 3%;
 }
 
+.phone{
+  font-size: 1.5vw;
+}
+
+.email{
+  font-size: 1.5vw;
+}
+
 .email img{
   width: 4%;
   margin-right: 5px;
@@ -115,7 +136,7 @@ body{
 }
 
 .first{
-  font-size: 1.8vw;
+  font-size: 2vw;
   font-weight: 600;
   color: #36BBCE;
 }
@@ -128,8 +149,20 @@ body{
   font-size: 1.6vw;
 }
 
+.content h1{
+  font-size: 2.2vw;
+}
+
+.content ol li{
+  font-size: 1.4vw;
+}
+
 .content ol{
   width: 80%;
   text-align: justify;
   margin: 0 auto;
+}
+
+.margin{
+  margin-left: 20px;
 }
