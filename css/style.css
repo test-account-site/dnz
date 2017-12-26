@@ -60,6 +60,12 @@
   margin-bottom: 15px;
 }
 
+@media only screen and (max-width: 960px){
+  .content-container{
+    width: 95%;
+  }
+}
+
 .content-container .slides #wrapper{
   width: 90%;
   margin: 0 auto;
@@ -93,6 +99,7 @@ body{
 }
 
 .map{
+  margin-top: 30px;
   height: 100%;
 }
 
@@ -105,6 +112,7 @@ body{
   width: 3%;
 }
 
+
 .email img{
   width: 4%;
   margin-right: 5px;
@@ -115,7 +123,7 @@ body{
 }
 
 .first{
-  font-size: 1.8vw;
+  font-size: 2vw;
   font-weight: 600;
   color: #36BBCE;
 }
@@ -128,8 +136,37 @@ body{
   font-size: 1.6vw;
 }
 
+.content h1{
+  font-size: 2.2vw;
+}
+
+.content ol li{
+  font-size: 1.4vw;
+}
+
 .content ol{
   width: 80%;
   text-align: justify;
   margin: 0 auto;
+}
+
+.margin{
+  margin-left: 20px;
+}
+
+.for-parent h1{
+  color: #457da1;
+  font-weight: 600;
+  text-align: center;
+}
+
+.for-parent h2{
+  color: #188f3a;
+  font-weight: 600;
+  text-align: center;
+}
+
+.for-parent p{
+  text-align: justify;
+  text-indent: 50px;
 }

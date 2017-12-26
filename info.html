@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=1060">
+    <meta name="viewport" content="width=960">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Дошкільний навчальний заклад (ясла-садок) №38 "Золотий ключик"</title>
     <link rel="shortcut icon" href="images/icon.png" type="image/png">
@@ -11,6 +11,9 @@
 
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style-tabs.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="js/main.js"></script>
   </head>
 
   <body>
@@ -20,7 +23,7 @@
       <header class="header text-center">
         <span class="phone"><img src="images/phone.png"><a href="tel:(0472)379340" title="Зателефонувати">(0472) 37-93-40</a></span>
         <span class="logo"><img src='images/logo.png'></span>
-        <span class="email"><a href="mailto:example@mail.ua" title="Написати листа"><img src="images/email.jpg" alt="">example@mail.ua</a></span>
+        <span class="email"><a href="mailto:dyt_sadok38@ukr.net" title="Написати листа"><img src="images/email.jpg" alt="">dyt_sadok38@ukr.net</a></span>
       </header>
 
       <hr style="margin: 10px 0; border: 1px solid gold">
@@ -31,32 +34,106 @@
             <li><a href="for_parent.html">Для вас, батьки</a></li>
             <li><a href="news.html">Новини</a></li>
             <li><a href="photo_gallery.html">Фотогалерея</a></li>
-            <li><a href="info.html">Інформація про заклад</a></li>
+            <li><a href="info.html">Про заклад</a></li>
           </ul>
         </div>
       </div>
       <hr>
 
       <div class="content">
-        <div class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d612.1740990536979!2d32.0563758660764!3d49.440980913710675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d14b7e3144ec23%3A0x5b430cc9e4d74070!2z0YPQuy4g0JHQu9Cw0LPQvtCy0LXRgdGC0L3QsNGPLCAyMTUsINCn0LXRgNC60LDRgdGB0YssINCn0LXRgNC60LDRgdGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAxODAwMA!5e0!3m2!1sru!2sua!4v1513612986835" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-        <div class="contacts">
-          <p><b>Контакти:</b> м.Черкаси, вул. Благовісна, 215</p>
-          <p><b>Телефон:</b> (0472) 37-93-40</p>
-          <p><b>E-mail:</b> example@mail.ua</p>
-        </div>
+        <div class="cd-tabs">
+      	<nav>
+      		<ul class="cd-tabs-navigation">
+      			<li><a data-content="inbox" class="selected" href="#0">Педагогічний колектив</a></li>
+      			<li><a data-content="new" href="#0">Загальнодоступні ресурси про діяльність закладу</a></li>
+      			<li><a data-content="gallery" href="#0">Контактна інформація</a></li>
+      		</ul> <!-- cd-tabs-navigation -->
+      	</nav>
+
+      	<ul class="cd-tabs-content">
+      		<li data-content="inbox" class="selected">
+            <h2 class="text-center">Адміністрація  дошкільного закладу:</h2>
+              <h3>Глущенко Світлана Олексіївна</h3>
+                <p class="margin">Завідувач, освіта вища, пед. стаж – 28років.</p>
+                <p class="margin">2014р. НПУ ім.  М.П.Драгоманова, організатор дошкільної освіти;</p>
+                <p class="margin">2016р.  НПУ ім.  М.П.Драгоманова,   спеціаліст права, викладач правознавства.</p>
+              <h3>Філіппенко Єлізавєта Леонідівна </h3>
+                <p class="margin">Заступник завідувача з господарчої  частини.</p>
+              <h3>Простибоженко Юлія Петрівна</h3>
+                <p class="margin">Медична сестра старша.</p>
+            <h2 class="text-center">Педагогічні працівники:</h2>
+              <h3>Арбачевська Наталія Миколаївна</h3>
+              <p class="margin">Вихователь, освіта неповна вища, Переяслов-Хмельницький університет, бакалавр, пед. стаж - 4 роки; </p>
+              <h3>Млявко Тамара Миколаївна</h3>
+              <p class="margin">Вихователь,  освіта середня спеціальна, Уманське пед. училище , пед. стаж – 25 років;</p>
+              <h3>Наталуха Наталія Миколаївна</h3>
+              <p class="margin">Вихователь,  освіта середня спеціальна, Уманське педучилище, пед. стаж – 12 років;</p>
+              <h3>Філоненко Тамара Володимирівна</h3>
+              <p class="margin">Вихователь,  освіта середня спеціальна, педагогічний клас ЧШС  № 11, 1985 р.з., пед. стаж – 11 років;</p>
+              <h3>Шаталова Наталія Олександрівна</h3>
+              <p class="margin">Вихователь, освіта вища педагогічна, Горлівський державний пед.інститут іноземних мов ім. М. К. Крупської;</p>
+              <h3>Войченко Галина Генадіївна</h3>
+              <p class="margin">Вихователь, освіта вища, Черкаський державний пед.інститут, вчитель російської мови та літератури, пед.. стаж – 14 років;</p>
+              <h3>Білоус Алла Іванівна</h3>
+              <p class="margin">Вихователь, освіта середня спеціальна, Уманське пед. училище, вихователь ДНЗ, пед. стаж -8 років;</p>
+              <h3>Ганжа Наталія Юріївна</h3>
+              <p class="margin">Вихователь, освіта вища, ЧНУ ім. Б. Хмельницького, магістр, практичний психолог, вчитель початкової школи, Корсунь-Шевченківське пед.училище ім. Т.Г.Шевченка, вчитель початкових класів та англійської мови, пед.стаж – 5 років;</p>
+              <h3>Джумайло Ольга Василівна</h3>
+              <p class="margin">Музичний керівник, освіта вища, Черкаський державний пед.інститут,  пед.стаж - 43 роки.</p>
+      		</li>
+
+      		<li data-content="new">
+            <div style="width: 80%; margin: 3em auto;">
+              <p></p>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">Фінансовий звіт про використання коштів загального фонду  згідно кошторисних призначень на 2017 рік по дошкільному навчальному закладу №38 "Золотий ключик"</div>
+                <div class="panel-body text-center">
+                  <a href="documents/DNZ_38.xlsx" target="_blank" title="Натисніть щоб відкрити документ">Відкрити документ</a>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">Голова  Ради закладу</div>
+                <div class="panel-body text-center">
+                  <a href="documents/Holova_Rady_zakladu.docx" target="_blank" title="Натисніть щоб відкрити документ">Відкрити документ</a>
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">Інформаційна  довідка  про  дошкільний  навчальний  заклад</div>
+                <div class="panel-body text-center">
+                  <a href="documents/Informatsiyna_dovidka.docx" target="_blank" title="Натисніть щоб відкрити документ">Відкрити документ</a>
+                </div>
+              </div>
+            </div>
+
+      		</li>
+
+      		<li data-content="gallery">
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d612.1740990536979!2d32.0563758660764!3d49.440980913710675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d14b7e3144ec23%3A0x5b430cc9e4d74070!2z0YPQuy4g0JHQu9Cw0LPQvtCy0LXRgdGC0L3QsNGPLCAyMTUsINCn0LXRgNC60LDRgdGB0YssINCn0LXRgNC60LDRgdGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAxODAwMA!5e0!3m2!1sru!2sua!4v1513612986835" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="contacts text-center">
+              <p><strong>Адреса:</strong> 18001, м .Черкаси, вул. Благовісна, 215</p>
+              <p><strong>Телефон:</strong> (0472) 37-93-40</p>
+              <p><strong>E-mail:</strong> dyt_sadok38@ukr.net</p>
+            </div>
+      		</li>
+      	</ul> <!-- cd-tabs-content -->
+      </div> <!-- cd-tabs -->
+
       </div>
 
-      <hr>
+      <hr style="margin-bottom: 10px;">
       <footer class="footer">
         <span class="social">
           Розробка сайту: Руслан Олійник
-          <a href="mailto:russ.oliinyk@gmail.com ?subject=Я хочу замовити у вас сайт" title="Написати автору сайту"><img src="images/gmail.png" alt="" style="width: 30px"></a>
-          <a title="Viber +380971062049" href="viber://chat?number=+380971062049"><img src="images/viber.png" alt="" style="width: 25px"></a>
-          <a href="https://vk.com/russ.oliinyk" title="Зв'язатися у Вконтакті"><img src="images/vk.png" alt="" style="width: 28px"></a>
-          <a href="https://www.facebook.com/oliinyk.ruslan" title="Зв'язатися у Facebook"><img src="images/fb.png" alt="" style="width: 36px"></a>
-          <a href="https://www.instagram.com/russ.oliinyk/" title="Зв'язатися у Instagram"><img src="images/inst.png" alt="" style="width: 25px"></a>
+          <a href="mailto:russ.oliinyk@gmail.com ?subject=Я хочу замовити у вас сайт" title="Написати автору сайту"><img src="images/gmail.png" alt="" style="width: 25px"></a>
+          <a title="Viber +380971062049" href="viber://chat?number=+380971062049"><img src="images/viber.png" alt="" style="width: 20px"></a>
+          <a href="https://vk.com/russ.oliinyk" title="Зв'язатися у Вконтакті"><img src="images/vk.png" alt="" style="width: 23px"></a>
+          <a href="https://www.facebook.com/oliinyk.ruslan" title="Зв'язатися у Facebook"><img src="images/fb.png" alt="" style="width: 29px"></a>
+          <a href="https://www.instagram.com/russ.oliinyk/" title="Зв'язатися у Instagram"><img src="images/inst.png" alt="" style="width: 20px"></a>
         </span>
         <span class="copyring">© 2018 Дошкільний навчальний заклад №38</span>
       </footer>
