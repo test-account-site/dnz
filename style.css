@@ -1,0 +1,177 @@
+/*menu*/
+    @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+    .menu-main {
+      list-style: none;
+      padding: 15px 0 0;
+      text-align: center;
+      background: white;
+    }
+    .menu-main li {display: inline-block;}
+    .menu-main li:after {
+      content: "|";
+      color: #000;
+      display: inline-block;
+      vertical-align:top;
+    }
+    .menu-main li:last-child:after {content: none;}
+    .menu-main a {
+      text-decoration: none;
+      font-family: 'Ubuntu Condensed', sans-serif;
+      letter-spacing: 2px;
+      position: relative;
+      padding-bottom: 10px;
+      margin: 0 34px 0 30px;
+      font-size: 17px;
+      text-transform: uppercase;
+      display: inline-block;
+      transition: color .2s;
+    }
+    .menu-main a, .menu-main a:visited {color: #000;}
+    .menu-main a.current, .menu-main a:hover{color: #FFB841;}
+    .menu-main a:before,
+    .menu-main a:after {
+      content: "";
+      position: absolute;
+      height: 4px;
+      top: auto;
+      right: 50%;
+      bottom: -5px;
+      left: 50%;
+      background: #ffd700;
+      transition: .8s;
+    }
+    .menu-main a:hover:before, .menu-main .current:before {left: 0;}
+    .menu-main a:hover:after, .menu-main .current:after {right: 0;}
+    @media (max-width: 550px) {
+    .menu-main {padding-top: 0;}
+    .menu-main li {display: block;}
+    .menu-main li:after {content: none;}
+    .menu-main a {
+      padding: 25px 0 20px;
+      margin: 0 30px;
+    }
+    }
+
+.content-container{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(122,122,122,0.5);
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 960px){
+  .content-container{
+    width: 95%;
+  }
+}
+
+.content-container .slides #wrapper{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.social{
+  margin-right: 4.5vw;
+}
+
+.footer{
+  text-align: center;
+}
+
+body{
+  background: url(../images/bg.jpg);
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.content{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.content{
+  margin-top: 30px;
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.contacts{
+  font-size: 3em;
+  margin-top: 30px;
+}
+
+.map{
+  margin-top: 30px;
+  height: 100%;
+}
+
+.logo img{
+  width: 30%;
+  margin: 0 8%;
+}
+
+.phone img{
+  width: 3%;
+}
+
+
+.email img{
+  width: 4%;
+  margin-right: 5px;
+}
+
+.header{
+  font-size: 20px;
+}
+
+.first{
+  font-size: 2vw;
+  font-weight: 600;
+  color: #36BBCE;
+}
+
+.second{
+  font-size: 1.6vw;
+}
+
+.third{
+  font-size: 1.6vw;
+}
+
+.content h1{
+  font-size: 2.2vw;
+}
+
+.content ol li{
+  font-size: 1.4vw;
+}
+
+.content ol{
+  width: 80%;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.margin{
+  margin-left: 20px;
+}
+
+.for-parent h1{
+  color: #457da1;
+  font-weight: 600;
+  text-align: center;
+}
+
+.for-parent h2{
+  color: #188f3a;
+  font-weight: 600;
+  text-align: center;
+}
+
+.for-parent p{
+  text-align: justify;
+  text-indent: 50px;
+}
