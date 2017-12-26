@@ -88,10 +88,7 @@
   font-weight: 700;
   color: #c3c2b9;
   text-decoration: none;
-<<<<<<< HEAD
   font-size: 2vw;
-=======
->>>>>>> e65db70dfa200b81009eca6d980c8687f33124c6
 }
 .no-touch .cd-tabs-navigation a:hover {
   color: #29324e;
@@ -103,7 +100,6 @@
   color: #29324e;
 }
 
-<<<<<<< HEAD
 @media only screen and (min-width: 350px) {
   .cd-tabs-navigation {
     /* move the nav to the left on medium sized devices */
@@ -116,27 +112,6 @@
   }
 
 
-=======
-@media only screen and (min-width: 600px) {
-  .cd-tabs-navigation {
-    /* move the nav to the left on medium sized devices */
-    width: 150px;
-    height: 60px;
-    float: left;
-    padding: 0;
-  }
-  .cd-tabs-navigation a {
-    height: 100px;
-    width: 150px;
-    padding: 15px 0;
-  }
-  .cd-tabs-navigation a.selected {
-    box-shadow: inset 2px 0 0 #f05451;
-  }
-  .cd-tabs-navigation a::before {
-    top: 22px;
-  }
->>>>>>> e65db70dfa200b81009eca6d980c8687f33124c6
 }
 @media only screen and (min-width: 960px) {
   .cd-tabs-navigation {
@@ -180,7 +155,6 @@
   animation: cd-fade-in 0.5s;
 }
 .cd-tabs-content{
-<<<<<<< HEAD
   font-size: 1.2vw;
   line-height: 1.6;
 }
@@ -193,12 +167,6 @@
   font-size: 1.5vw;
 }
 
-=======
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
-
->>>>>>> e65db70dfa200b81009eca6d980c8687f33124c6
 @media only screen and (min-width: 768px) {
   .cd-tabs-content {
     min-height: 480px;
