@@ -14,6 +14,7 @@
     <!--  slider -->
     <link rel="stylesheet" href="css/slider-header.css">
     <script src="js/responsiveslides.min.js"></script>
+    <script src="js/function.js"></script>
     <script>
       $(function () {
         $("#slider1").responsiveSlides({
@@ -25,6 +26,23 @@
 
       });
     </script>
+    <!-- snow -->
+    <script type="text/javascript">
+      imageDir = "http://mvcreative.ru/example/6/2/snow/";
+      sflakesMax = 65;
+      sflakesMaxActive = 65;
+      svMaxX = 2;
+      svMaxY = 4;
+      ssnowStick = 1;
+      ssnowCollect = 0;
+      sfollowMouse = 1;
+      sflakeBottom = 0;
+      susePNG = 1;
+      sflakeTypes = 5;
+      sflakeWidth = 15;
+      sflakeHeight = 15;
+    </script>
+    <script type="text/javascript" src="http://mvcreative.ru/example/6/2/snow.js"></script>
   </head>
 
   <body>
@@ -33,7 +51,7 @@
 
       <header class="header text-center">
         <span class="phone"><img src="images/phone.png"><a href="tel:(0472)379340" title="Зателефонувати">(0472) 37-93-40</a></span>
-        <span class="logo"><img src='images/logo.png'></span>
+        <span class="logo"><a href="index.html"><img src='images/logo.png'></a></span>
         <span class="email"><a href="mailto:dyt_sadok38@ukr.net" title="Написати листа"><img src="images/email.jpg" alt="">dyt_sadok38@ukr.net</a></span>
       </header>
 
@@ -85,6 +103,10 @@
           <li>Підвищувати рівень інноваційної культури педагогів дошкільних закладів для забезпечення активної позиції дитини в здобутті знань, постійного розвитку в притаманних їй видах діяльності: ігровій, пізнавальній, практично-творчій.</li>
           <li>Спрямувати співпрацю педагогів та батьків  на розвиток у дітей емоційної культури та моральних почуттів, які забезпечують формування базових моральних якостей особистості.</li>
         </ol>
+      </div>
+
+      <div id="back-top">
+        <a href="#" onclick="return up()">ВГОРУ</a>
       </div>
 
       <hr style="margin-bottom: 10px;">

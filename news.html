@@ -11,6 +11,24 @@
 
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="js/function.js"></script>
+    <!-- snow -->
+    <script type="text/javascript">
+      imageDir = "http://mvcreative.ru/example/6/2/snow/";
+      sflakesMax = 65;
+      sflakesMaxActive = 65;
+      svMaxX = 2;
+      svMaxY = 4;
+      ssnowStick = 1;
+      ssnowCollect = 0;
+      sfollowMouse = 1;
+      sflakeBottom = 0;
+      susePNG = 1;
+      sflakeTypes = 5;
+      sflakeWidth = 15;
+      sflakeHeight = 15;
+    </script>
+    <script type="text/javascript" src="http://mvcreative.ru/example/6/2/snow.js"></script>
   </head>
 
   <body>
@@ -19,7 +37,7 @@
 
       <header class="header text-center">
         <span class="phone"><img src="images/phone.png"><a href="tel:(0472)379340" title="Зателефонувати">(0472) 37-93-40</a></span>
-        <span class="logo"><img src='images/logo.png'></span>
+        <span class="logo"><a href="index.html"><img src='images/logo.png'></a></span>
         <span class="email"><a href="mailto:dyt_sadok38@ukr.net" title="Написати листа"><img src="images/email.jpg" alt="">dyt_sadok38@ukr.net</a></span>
       </header>
 
@@ -38,6 +56,10 @@
       <hr>
 
       <div class="content"></div>
+
+      <div id="back-top">
+        <a href="#" onclick="return up()">ВГОРУ</a>
+      </div>
 
       <hr style="margin-bottom: 10px;">
       <footer class="footer">
