@@ -171,11 +171,27 @@ body{
   text-align: center;
 }
 
-.for-parent p{
+.for-parent p, .news p{
   text-align: justify;
   text-indent: 50px;
 }
 
+ .news h2{
+   color: #188f3a;
+   font-weight: 600;
+   text-align: center;
+   margin: 0 0 10px 0;
+ }
+
+ .news{
+   width: 85%;
+   margin: 0 auto;
+ }
+
+ .news table{
+   width: 60%;
+   margin: 0 auto;
+ }
 
 /* кнопка вверх*/
 #back-top {
